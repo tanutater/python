@@ -1,88 +1,76 @@
-# 💻 Python Projects
+# 💻 Python Learning Repository
 
-Welcome to my collection of Python projects! This repository contains beginner-friendly scripts, problem-solving examples, and NumPy experiments to enhance Python skills.
+Welcome to my personal Python learning repository!  
+Here, I explore core programming concepts, logic building, exception handling, and numerical computing with **NumPy**.
 
 ---
 
-## 📁 Project Structure
+## 🚀 Current Learning Areas
+
+✅ Python Basics & Control Flow  
+✅ NumPy Arrays & Universal Functions  
+✅ File Handling and OS interactions  
+⏳ Exception Handling & Input Validation  
+⏳ Problem-solving with scripts & games  
+
+---
+
+## 📂 Project Structure
+
+### 🧮 NumPy Practice
+
+| File                        | Topic Covered                                         |
+|----------------------------|--------------------------------------------------------|
+| `aggregations.py`          | Aggregate functions like sum, min, mean, etc.         |
+| `basics1.py`               | Creating arrays, shapes, and dtypes                   |
+| `basics2.py`               | Indexing and slicing                                  |
+| `binningData.py`           | Histogram binning and grouping                        |
+| `broadcasting.py`          | Introduction to broadcasting                          |
+| `broadcasting2.py`         | Advanced broadcasting examples                        |
+| `comparision.py`           | Boolean operations and comparisons                    |
+| `slicingArray.py`          | Slicing 1D and 2D arrays                              |
+| `sorting.py`               | Sorting arrays with NumPy                             |
+| `structuredData.py`        | Working with structured data and dtypes               |
+| `universalFunction.py`     | uFuncs like np.exp, np.sqrt, etc.                     |
+| `scipyFunction.py`         | SciPy-based function usage                            |
+
+---
+
+### 🧰 Python Scripts & Utility Programs
+
+| File                      | Description                                            |
+|---------------------------|--------------------------------------------------------|
+| `CollatzSequence.py`      | Collatz sequence generator                             |
+| `rock_paper_scissors.py`  | Classic game with conditionals                         |
+| `tryAndExcept.py`         | Basic exception handling                               |
+| `guessNumber.py`          | Random number guessing game                            |
+| `magic8Ball2.py`          | Fortune-telling fun script                             |
+| `class1.py`               | Class example for OOP                                  |
+| `changinString.py`        | String modification practice                           |
+| `deleting.py`             | Deletion and input operations                          |
+| `first.py`                | Hello World and input example                          |
+| `fraction.py`             | Working with the `fractions` module                   |
+| `osLibrary.py`            | Using the `os` module for system paths                 |
+| `sys_use.py`              | System exit and error control                          |
+| `sandwich.py`             | Simple sandwich builder                                |
+| `idiot.py`                | Conditional loops and validation                       |
+| `zigzag.py`               | Text animation using loops                             |
+
+---
+
+## 🔧 How to Run
+
+Clone the repo:
 
 ```bash
-python/
-├── numpy/
-│   ├── aggregations.py
-│   ├── basics1.py
-│   ├── basics2.py
-│   ├── binningData.py
-│   ├── broadcasting.py
-│   ├── broadcasting2.py
-│   ├── comparision.py
-│   ├── slicingArray.py
-│   ├── sorting.py
-│   ├── structuredData.py
-│   ├── universalFunction.py
-│   └── scipyFunction.py
-├── CollatzSequence.py
-├── rock_paper_scissors.py
-├── tryAndExcept.py
-├── guessNumber.py
-├── magic8Ball2.py
-├── changinString.py
-├── class1.py
-├── osLibrary.py
-├── sandwich.py
-├── deleting.py
-├── first.py
-├── idiot.py
-├── sys_use.py
-├── zigzag.py
-├── fraction.py
-└── ...
-🧠 Topics Covered
-✅ Basic syntax and control flow
+git clone https://github.com/tanutater/python.git
+cd python
+Then run any Python file:
 
-✅ Functions and exception handling
-
-✅ Interactive games and input/output
-
-✅ NumPy fundamentals and broadcasting
-
-✅ Aggregations, slicing, structured arrays
-
-📦 Requirements
-Make sure you have Python and NumPy installed:
-
-bash
-Copy
-Edit
-pip install numpy
-🚀 How to Run
-To run any script from the terminal:
-
-bash
-Copy
-Edit
 python filename.py
-Example:
-
-bash
-Copy
-Edit
 python rock_paper_scissors.py
-📂 About the numpy/ Folder
-This folder contains hands-on practice for the NumPy library:
-
-✅ Creating and slicing arrays
-
-✅ Broadcasting and universal functions
-
-✅ Structured data and comparisons
-
-✅ Aggregations and statistical operations
-
-✅ Data binning and sorting
-
-Great for anyone learning data analysis or scientific computing with Python.
-
 🙋‍♀️ Author
-Made by Tanu Tater ❤️
-Exploring Python, problem-solving, and real-world applications one script at a time.
+Tanu Tater
+🚀 Passionate about Python, problem-solving, and data handling.
+📍 GitHub Profile
+
