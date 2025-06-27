@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 # A Pandas Series is a one-dimensional array of indexed data
-# NOTE :-> if we define the indexes (not integer ) explicitly the in d[strar: end ] end index will also be included else not  
+# NOTE :-> Notice that when slicing with an explicit index (i.e., data['a':'c']), the final index is included in the slice, while when slicing with an implicit index (i.e., data[0:2]), the final index is excluded from the slice.
 data=pd.Series([1,.25,.34,.67])
 print(data)
 print("printing values of the seried using .values: ",data.values)
